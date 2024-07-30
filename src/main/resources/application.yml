@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+whatsapp:
+  api-url: https://graph.facebook.com/v20.0/433448213175429/messages
+  access-token: EAAGjbkk2ZC5UBO3SoA0UYauQZA8hjsno7d6fmf2voeNxyYUPlJMRRqPMxYgRVIZBIyOibTxQJiJGzNr2iFjqZBGgeM0AVbMTu7dQ28RPiEqt9IFSzPZBsdspcq8ZCOCIWhP90ROhivlxWc7TeIt6ZCSuZAQ1TYAYZC29jhkfYgpg0ti8wnRfELZBF557vKlkFZCPATQtN9ZCtqVBEpZB9fPgT5XgZD
