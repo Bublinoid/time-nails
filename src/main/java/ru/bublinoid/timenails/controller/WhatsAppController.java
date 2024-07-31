@@ -15,11 +15,7 @@ public class WhatsAppController {
     private WhatsAppService whatsAppService;
 
     @PostMapping("/send-template")
-    public String sendWhatsAppTemplateMessage(@RequestBody Map<String, String> request) {
-        String recipientPhoneNumber = request.get("to");
-        String templateName = request.get("template");
-        String languageCode = request.get("language");
-
-        return whatsAppService.sendTemplateMessage(recipientPhoneNumber, templateName, languageCode);
+    public String sendWhatsAppTemplateMessage(@RequestParam String to, @RequestParam String template, @RequestParam String language) {
+        return whatsAppService.sendTemplateMessage(to, template, language);
     }
 }
